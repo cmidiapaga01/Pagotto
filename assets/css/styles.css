@@ -615,6 +615,9 @@ body.dark-theme{
 /*=============== NEWSLETTER ===============*/
 .newsletter__container{
   position: relative;
+  --swiper-pagination-color:var(--first-color); 
+  --swiper-pagination-bullet-inactive-color: var(--first-color); 
+  --swiper-pagination-bullet-inactive-opacity: .5;
 }
 
 .newsletter__content{
@@ -665,8 +668,8 @@ body.dark-theme{
 .newsletter__spinach{
   width: 30px;
   position: absolute;
-  right: 2rem;
-  bottom: -2rem;
+  right: 1.5rem;
+  bottom: -0.2rem;
   transform: rotate(45deg);
 }
 
