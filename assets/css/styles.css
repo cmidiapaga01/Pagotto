@@ -1034,6 +1034,17 @@ body.dark-theme{
     margin-bottom: .75rem;
   }
 
+  .jp1, .jp3{
+    position: relative;
+    left: -8%;
+  }
+
+  .jp2{
+    right: -9%;
+    top: -0.7rem;
+  }
+      
+
   .nav{
     height: calc(var(--header-height) + 2.5rem);
     margin-left: 4.5rem;
