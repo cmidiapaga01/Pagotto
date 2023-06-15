@@ -638,6 +638,7 @@ body.dark-theme{
 }
 
 .newsletter__data .section__title{
+  font-size: var(--h3-font-size);
   color: #fff;
   margin-bottom: 2rem;
 }
