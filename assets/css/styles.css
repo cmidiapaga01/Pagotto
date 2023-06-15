@@ -182,6 +182,36 @@ body.dark-theme{
   text-align: center;
 }
 
+.jp1{
+  font-size: 1.8rem; 
+  opacity: 0.25; 
+  margin-bottom: 0;
+  margin-right: 10%;
+}
+
+.jp2{
+  opacity: .4;
+  position: relative;
+  top: -0.5rem;
+  font-family: var(--title-font);
+  font-size: 1rem;
+  margin-left: 12%;
+}
+
+.jp3{
+  font-size: 2.1rem; 
+  color: rgb(213, 110, 63, 0.25);
+  margin-bottom: 0;
+}
+
+.jp4{
+  /* opacity: .4; */
+  color: rgb(213, 110, 63, 0.4);
+  font-family: var(--title-font);
+  font-size: 1rem;
+  margin-left: 0.3rem;
+}
+
 .main {
   overflow: hidden; /* For animation ScrollReveal */
 }
@@ -951,6 +981,26 @@ body.dark-theme{
     box-shadow: none;
   }
 
+  .jp1{
+    font-size: 2.5rem; 
+    margin-right: 20%;
+  }
+
+  .jp2{
+    font-size: 1.3rem;
+    margin-left: 32%;
+  }
+
+  .jp3{
+    font-size: 2.7rem;
+  }
+
+  .jp4{
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+  }
+
+
   .popular__container{
     grid-template-columns: repeat(2, 250px);
   }
@@ -984,6 +1034,17 @@ body.dark-theme{
   .section__subtitle{
     margin-bottom: .75rem;
   }
+
+  .jp1, .jp3{
+    position: relative;
+    left: -8%;
+  }
+
+  .jp2{
+    right: -9%;
+    top: -0.7rem;
+  }
+      
 
   .nav{
     height: calc(var(--header-height) + 2.5rem);
