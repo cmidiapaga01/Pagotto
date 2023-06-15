@@ -704,6 +704,14 @@ body.dark-theme{
   transform: rotate(45deg);
 }
 
+.jp_chara{
+  font-size: var(--biggest-font-size);
+}
+
+.jp_word{
+  font-size: var(--h1-font-size);
+}
+
 .newsletter__container,
 .newsletter__form,
 .newsletter__input{
